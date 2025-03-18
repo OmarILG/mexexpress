@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Colores personalizados */
+.text-primary {
+    color: #0d6efd !important;
+}
+
+/* Navbar personalizado */
+.navbar {
+    background-color: #0d6efd;
+}
+
+/* Estilos para la página About */
+.about-header {
+    padding: 2rem 0;
+}
+
+.value-card {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info i {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para los íconos */
+.fa-3x {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para las alertas */
+.alert-info {
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    color: #084298;
+}
+
+/* Estilos para los enlaces */
+.nav-link:hover {
+    color: #fff !important;
+    opacity: 0.8;
+}
+
+.card .btn {
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(28,40,65);
+}
+
+thead th{
+    background-color: rgb(0,49,83);
+}
+
+td {
+    width: 120px;
+}
+
+td img {
+    width: 100px;
+}
